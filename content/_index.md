@@ -1,5 +1,5 @@
 ---
 title: 'Home'
-summary: 'Junjia QI - M.Eng Student at CityU'
+summary: 'Junjia QI - M.Sc. Student at CityU'
 type: landing
 ---
