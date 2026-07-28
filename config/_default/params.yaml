@@ -13,19 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Qi"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "Qi"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "项目、学习与思考 · Projects, learning, and notes"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "Qi 的个人主页，记录项目、学习与思考。"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "" # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -88,10 +87,10 @@ hugoblox:
     # Menu alignment
     align: center # left | center | right
     # Feature toggles
-    search: true
+    search: false
     theme_toggle: true
-    theme_picker: true
-    language_switcher: true
+    theme_picker: false
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -105,7 +104,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: ""
 
@@ -115,9 +114,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name}"
     license:
-      type: cc # cc | custom
+      type: custom # cc | custom
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -172,7 +171,7 @@ hugoblox:
   # Site search
   # ────────────────────────────────────────────────────────────────────────────
   search:
-    enable: true
+    enable: false
     # Trending/suggested search terms
     suggestions: []
     # Quick action shortcuts in search modal
@@ -230,8 +229,8 @@ hugoblox:
   # Source code repository for "Edit this page" links
   # ────────────────────────────────────────────────────────────────────────────
   repository:
-    enable: false
-    url: "" # e.g., https://github.com/username/repo
+    enable: true
+    url: "https://github.com/qi202/qi202.github.io"
     branch: main
     content_dir: content
 
@@ -240,8 +239,8 @@ hugoblox:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "Jan 2, 2006" # Go time format
-    time_format: "3:04 PM"
+    date_format: "2006-01-02" # Go time format
+    time_format: "15:04"
     address_format: en-us
 
   # ────────────────────────────────────────────────────────────────────────────
