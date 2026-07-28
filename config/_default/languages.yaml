@@ -3,8 +3,8 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-zh:
-  locale: zh-Hans
+en:
+  locale: en-US
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:

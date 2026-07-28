@@ -13,15 +13,15 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Qi"
+    name: "Junjia QI"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: "Qi"
+    organization: "Junjia QI"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "项目、学习与思考 · Projects, learning, and notes"
+    tagline: "M.Eng Student at CityU"
     # Site meta description for search engines and social sharing
-    description: "Qi 的个人主页，记录项目、学习与思考。"
+    description: "Personal academic homepage of Junjia QI."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "" # Twitter/X handle for Twitter Cards (without @)
@@ -32,7 +32,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: system
+    mode: light
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
     # Optional: Override theme pack colors
@@ -88,7 +88,7 @@ hugoblox:
     align: center # left | center | right
     # Feature toggles
     search: false
-    theme_toggle: true
+    theme_toggle: false
     theme_picker: false
     language_switcher: false
     # Call-to-action button
