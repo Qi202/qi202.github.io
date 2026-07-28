@@ -12,17 +12,6 @@ sections:
       text: ''
       headings:
         about: '关于我 · About'
-    design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1
-          size: cover
-          position: center
-          parallax: false
 
   - block: markdown
     id: projects
