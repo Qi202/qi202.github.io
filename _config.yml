@@ -1,7 +1,7 @@
 # Site settings
 locale: "en-US"
 site_theme: "default"
-title: "Junjia QI"
+title: "Junjia Qi's Homepage"
 title_separator: "-"
 name: &name "Junjia QI"
 description: &description "Academic homepage of Junjia QI"
@@ -14,7 +14,7 @@ author:
   name: "Junjia QI"
   pronouns:
   bio: "M.Sc. Student in Data Science at CityU"
-  location: "Hong Kong SAR"
+  location: "Hong Kong"
   employer: "City University of Hong Kong"
   uri:
   email: "junjiaqi2-c@my.cityu.edu.hk"

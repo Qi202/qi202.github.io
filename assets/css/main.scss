@@ -41,3 +41,54 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Homepage education and awards */
+.education-list,
+.honors-list {
+  max-width: 720px;
+  margin: 0;
+  padding: 0 0 0 34px;
+  list-style: none;
+}
+
+.education-item,
+.honors-item {
+  position: relative;
+  margin: 0 0 19px;
+  padding: 0;
+}
+
+.education-icon,
+.honors-icon {
+  position: absolute;
+  top: 3px;
+  left: -34px;
+  width: 20px;
+  height: 20px;
+  color: inherit;
+  fill: currentColor;
+}
+
+.honors-icon {
+  font-size: 20px;
+  text-align: center;
+}
+
+.education-description p,
+.honors-item p {
+  margin: 0;
+}
+
+.education-course,
+.honors-title {
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.education-institution,
+.honors-date {
+  margin-top: 2px !important;
+  color: #6f777d;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
