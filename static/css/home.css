@@ -176,11 +176,78 @@ body {
   font-size: 13.5px;
   line-height: 1.5;
 }
+
+.publications-section {
+  padding: 68px 0 90px;
+  background: #fff;
+  scroll-margin-top: 70px;
+}
+
+.publications-grid {
+  width: min(1110px, calc(100% - 40px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 330px minmax(0, 1fr);
+  gap: 64px;
+  align-items: start;
+}
+
+.publications-heading h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.publication-item { max-width: 720px; }
+
+.publication-title {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.publication-title a { color: var(--text); text-decoration: none; }
+.publication-title a:hover, .publication-title a:focus-visible { color: var(--accent); }
+
+.publication-authors, .publication-venue, .publication-links { margin: 0; }
+.publication-authors { font-size: 14.5px; line-height: 1.6; }
+.publication-authors strong { font-weight: 600; }
+
+.publication-venue {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.55;
+}
+
+.publication-links { margin-top: 11px; }
+
+.publication-links a {
+  display: inline-block;
+  padding: 3px 10px;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.publication-links a:hover, .publication-links a:focus-visible {
+  background: var(--accent);
+  color: #fff;
+}
+
 .anchor-target { display: block; scroll-margin-top: 70px; }
 
 @media (max-width: 780px) {
   .home-section { padding-top: 105px; }
   .home-grid { grid-template-columns: 1fr; gap: 30px; }
+  .publications-grid { grid-template-columns: 1fr; gap: 22px; }
   .profile { padding-top: 0; }
   .biography { padding-top: 0; }
 }
@@ -193,8 +260,10 @@ body {
   .nav-links a { padding: 21px 0 18px; font-size: 13px; }
   .nav-links a.active::after { bottom: 10px; }
   .home-grid { width: calc(100% - 34px); }
+  .publications-grid { width: calc(100% - 34px); }
   .portrait { width: 170px; height: 170px; }
   .profile h1 { font-size: 28px; }
   .biography h2 { font-size: 27px; }
+  .publications-heading h2 { font-size: 27px; }
   .biography .education-heading { font-size: 22px; }
 }
