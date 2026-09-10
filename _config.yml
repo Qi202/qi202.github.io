@@ -63,6 +63,8 @@ author:
 publication_category:
   workshops:
     title: "Workshop Papers"
+  preprints:
+    title: "Preprints and Manuscripts"
 
 breadcrumbs: false
 words_per_minute: 160

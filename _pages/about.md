@@ -10,6 +10,10 @@ redirect_from:
 
 I am currently a final-year Master's student at the College of Computing & Data Science, City University of Hong Kong (CityU), supervised by Prof. Xiangyu Zhao. Prior to this, I received my B.Eng. degree in Computer Science and Technology from Jinan University in 2025, with English as the medium of instruction.
 
+My research interests broadly lie in **LLM-based intelligent agents and agentic systems**. My recent work explores **agentic programming, self-evolving agentic workflows, long-term memory for agents, and multimodal GUI agents**. More broadly, I am interested in building capable, adaptive, and reliable AI agents and exploring their applications in complex, real-world environments.
+
+I am actively seeking **PhD and Research Assistant opportunities** and am open to research collaborations in related areas. Please feel free to reach out!
+
 Education
 ======
 
@@ -34,6 +38,13 @@ Honors and Awards
 ======
 
 <ul class="honors-list">
+  <li class="honors-item">
+    <i class="fas fa-award honors-icon" aria-hidden="true"></i>
+    <div>
+      <p class="honors-title"><strong>1st Place, Agent Track, <a href="https://glee-competition.com/leaderboard">GLEE Competition</a></strong> — Agent “grok 4.6”</p>
+      <p class="honors-date">Aug. 2026</p>
+    </div>
+  </li>
   <li class="honors-item">
     <i class="fas fa-award honors-icon" aria-hidden="true"></i>
     <div>
