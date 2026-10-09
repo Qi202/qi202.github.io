@@ -14,8 +14,6 @@ My research interests broadly lie in **LLM-based intelligent agents and agentic 
 
 I am actively seeking **PhD and Research Assistant opportunities** and am open to research collaborations in related areas. Please feel free to reach out!
 
-**Competition paper:** [Self-Evolving Agentic Workflows via Semantic Decomposition of Complex Tasks]({{ '/publication/2026-09-05-self-evolving-agentic-workflows' | relative_url }}) — associated with “grok 4.6,” the first-place agent in the GLEE Competition Agent Track. Under review at the NeurIPS 2026 Workshop on Interpreting Agent Behavior (IAB), Competition Paper Track.
-
 Education
 ======
 
