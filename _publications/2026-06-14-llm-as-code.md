@@ -13,6 +13,10 @@ citation: "Junjia Qi, Zichuan Fu, Jingtong Gao, Wenlin Zhang, Hanyu Yan, Xian Wu
 
 **Authors:** Junjia Qi, Zichuan Fu, Jingtong Gao, Wenlin Zhang, Hanyu Yan, Xian Wu, and Xiangyu Zhao.
 
+Junjia Qi is a **co-first author**.
+
 Accepted at the **KDD 2026 Workshop on Agentic Software Engineering (AgenticSE)**.
 
-[Read the paper on arXiv](https://arxiv.org/abs/2606.15874)
+The framework uses deterministic program logic to govern control flow and invokes LLMs for reasoning and generation. Context is organized as a call-tree DAG, with a computer-use agent case study evaluating long visual operation sequences.
+
+[Read the paper on arXiv](https://arxiv.org/abs/2606.15874) · [OpenProgram code](https://github.com/Fzkuji/OpenProgram)
